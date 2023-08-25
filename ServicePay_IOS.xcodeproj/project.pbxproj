@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EC869A72A99331A002F0802 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC869A52A99331A002F0802 /* CardCollectionViewCell.swift */; };
+		7EC869A82A99331A002F0802 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC869A62A99331A002F0802 /* CardCollectionViewCell.xib */; };
 		7EF6AB942A98F539001A55BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6AB932A98F539001A55BF /* AppDelegate.swift */; };
 		7EF6AB962A98F539001A55BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6AB952A98F539001A55BF /* SceneDelegate.swift */; };
 		7EF6AB982A98F539001A55BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6AB972A98F539001A55BF /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EC869A52A99331A002F0802 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EC869A62A99331A002F0802 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 		7EF6AB902A98F539001A55BF /* ServicePay_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServicePay_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6AB932A98F539001A55BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF6AB952A98F539001A55BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				7EF6AB9C2A98F53A001A55BF /* Assets.xcassets */,
 				7EF6AB9E2A98F53A001A55BF /* LaunchScreen.storyboard */,
 				7EF6ABA12A98F53A001A55BF /* Info.plist */,
+				7EC869A52A99331A002F0802 /* CardCollectionViewCell.swift */,
+				7EC869A62A99331A002F0802 /* CardCollectionViewCell.xib */,
 			);
 			path = ServicePay_IOS;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC869A82A99331A002F0802 /* CardCollectionViewCell.xib in Resources */,
 				7EF6ABA02A98F53A001A55BF /* LaunchScreen.storyboard in Resources */,
 				7EF6AB9D2A98F53A001A55BF /* Assets.xcassets in Resources */,
 				7EF6AB9B2A98F539001A55BF /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC869A72A99331A002F0802 /* CardCollectionViewCell.swift in Sources */,
 				7EF6AB982A98F539001A55BF /* ViewController.swift in Sources */,
 				7EF6AB942A98F539001A55BF /* AppDelegate.swift in Sources */,
 				7EF6AB962A98F539001A55BF /* SceneDelegate.swift in Sources */,
@@ -302,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ejimenez.tableview.ServicePay-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ejimenez.tableview.ServicePay-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
